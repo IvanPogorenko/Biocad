@@ -1,0 +1,88 @@
+@use '../../../common-styles/layout-mixins' as layout;
+@use '../../../common-styles/typography' as text;
+@use '../../../common-styles/colors' as color;
+
+.task-card{
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  width: 296px;
+  @include layout.flex-between;
+
+  &__icon{
+    width: 40px;
+    height: 40px;
+  }
+
+  &__img{
+    width: 100%;
+    height: 100%;
+  }
+
+  &__title{
+    @include layout.flex-between;
+    margin-bottom: 4px;
+  }
+
+  &__id{
+    font-size: map-get(text.$font-sizes, s);
+    color: color.$third-text-color;
+  }
+
+  &__status{
+    padding: 4px 8px 4px 4px;
+    border: 1px solid #0000001F;
+    border-radius: 2px;
+    direction: rtl;
+    color: color.$secondary-text-color;
+    font-size: map-get(text.$font-sizes, s);
+    cursor: pointer;
+    text-align: left;
+    outline: none;
+  }
+
+  &__name{
+    margin-bottom: 4px;
+    font-size: map-get(text.$font-sizes, s);
+    color: color.$main-text-color;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 212px;
+    white-space: nowrap;
+  }
+
+  &__location{
+    margin-bottom: 4px;
+    font-size: map-get(text.$font-sizes, s);
+    color: color.$third-text-color;
+    @include layout.flex-center;
+  }
+
+  &__room{
+    margin-left: 4px;
+  }
+
+  &__additional{
+    font-size: map-get(text.$font-sizes, s);
+    color: color.$third-text-color;
+    @include layout.flex-between;
+    width: 80px;
+    margin-left: auto;
+  }
+
+  &__warnings{
+    @include layout.flex-center
+  }
+
+  &__alarms{
+    @include layout.flex-center
+  }
+
+  &__warnings-count{
+    margin-left: 4px;
+  }
+
+  &__alarms-count{
+    margin-left: 4px;
+  }
+}

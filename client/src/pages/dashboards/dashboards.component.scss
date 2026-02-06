@@ -1,0 +1,11 @@
+@use "../../common-styles/layout-mixins" as layout;
+
+.dashboards{
+
+  &__container{
+    margin-top: 8px;
+    @include layout.grid;
+    width: 100%;
+  }
+
+}
