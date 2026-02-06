@@ -1,0 +1,19 @@
+$font-family-base: 'Roboto', sans-serif;
+$font-family-heading: 'SF Pro Display', $font-family-base;
+
+$font-sizes: (
+  s: 0.75rem,    // 12px
+  m: 0.875rem,   // 14px
+  l: 1.25rem,    // 20px
+);
+
+$line-height: (
+  m: 1rem,
+  l: 1.5rem
+);
+
+html {
+  font-family: $font-family-base;
+  font-size: 16px;
+  line-height: map-get($line-height, m);
+}

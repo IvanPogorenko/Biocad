@@ -1,0 +1,16 @@
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+}
+
+@mixin flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin grid{
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(auto-fill, minmax(292px, 1fr));
+}
