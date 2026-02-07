@@ -1,0 +1,22 @@
+@use '../../../common-styles/layout-mixins' as layout;
+
+.header{
+
+  &__container{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    @include layout.flex-between;
+  }
+
+  &__avatar{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+  }
+
+  &__avatar-img{
+    border-radius: 50%;
+    @include layout.image;
+  }
+
+}

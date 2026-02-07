@@ -1,0 +1,33 @@
+@use '../../common-styles/layout-mixins' as layout;
+@use '../../common-styles/colors' as colors;
+@use '../../common-styles/typography' as typography;
+
+.error{
+
+  &__container{
+    @include layout.flex-center;
+    flex-direction: column;
+  }
+
+  &__title{
+    font-size: map-get(typography.$font-sizes, l);
+    color: colors.$main-text-color;
+    margin-bottom: 20px;
+  }
+
+  &__button{
+    color: colors.$third-color;
+    font-size: map-get(typography.$font-sizes, m);
+    border-radius: 15px;
+    padding: 10px 20px;
+    border: 1px solid colors.$secondary-text-color;
+
+    &:hover{
+      background-color: colors.$third-color;
+      border: none;
+      color: colors.$secondary-text-color;
+    }
+
+  }
+
+}
