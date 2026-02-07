@@ -1,6 +1,9 @@
 @use '../../../common-styles/layout-mixins' as layout;
+@use '../../../common-styles/colors' as colors;
 
 .header{
+
+  background-color: colors.$white;
 
   &__container{
     padding-top: 8px;

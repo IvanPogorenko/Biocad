@@ -1,0 +1,72 @@
+@use '../../common-styles/layout-mixins' as layout;
+@use '../../common-styles/colors' as colors;
+@use '../../common-styles/typography' as typography;
+
+.task-info{
+
+  padding: 32px 24px;
+
+  &__container{
+    padding: 16px 20px 16px 16px;
+    background-color: colors.$white;
+  }
+
+  &__header{
+    @include layout.flex-between;
+  }
+
+  &__title{
+    @include layout.flex-center;
+  }
+
+  &__title-info{
+    margin-left: 16px;
+  }
+
+  &__name{
+    font-size: map-get(typography.$font-sizes, l);
+    line-height: map-get(typography.$line-height, l);
+    color: colors.$main-text-color;
+  }
+
+  &__id{
+    font-size: map-get(typography.$font-sizes, s);
+    color: colors.$secondary-text-color;
+  }
+
+  &__action{
+    @include layout.flex-center
+  }
+
+  &__select{
+    margin-right: 20px;
+  }
+
+  &__navigation{
+    max-width: 240px;
+    margin-top: 16px;
+  }
+
+  &__button{
+    padding: 16px 16px 16px 16px;
+    text-transform: uppercase;
+    font-size: map-get(typography.$font-sizes, m);
+    color: colors.$secondary-text-color;
+
+    &:first-child{
+      padding-left: 0;
+    }
+
+    &_active{
+      color: colors.$primary-color;
+      border-bottom: 1px solid colors.$primary-color;
+    }
+
+  }
+
+  &__separator{
+    margin: 0 -20px 0 -16px;
+    background-color: colors.$separator-color;
+  }
+
+}

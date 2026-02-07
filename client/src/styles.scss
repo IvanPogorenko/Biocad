@@ -1,5 +1,10 @@
 @use 'common-styles/reset';
 @use 'common-styles/typography';
+@use 'common-styles/colors' as colors;
+
+body {
+  background-color: colors.$page-background;
+}
 
 .container{
   width: 100%;
