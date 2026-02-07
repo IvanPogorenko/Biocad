@@ -15,8 +15,7 @@
   }
 
   &__img{
-    width: 100%;
-    height: 100%;
+    @include layout.image;
   }
 
   &__title{
@@ -56,6 +55,7 @@
     font-size: map-get(text.$font-sizes, s);
     color: color.$third-text-color;
     @include layout.flex-center;
+    justify-self: left;
   }
 
   &__room{
