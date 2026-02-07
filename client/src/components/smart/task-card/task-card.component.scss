@@ -1,6 +1,6 @@
 @use '../../../common-styles/layout-mixins' as layout;
 @use '../../../common-styles/typography' as text;
-@use '../../../common-styles/colors' as color;
+@use '../../../common-styles/colors' as colors;
 
 .task-card{
   padding: 16px;
@@ -8,6 +8,7 @@
   border: 1px solid rgba(0, 0, 0, 0.12);
   width: 296px;
   @include layout.flex-between;
+  background-color: colors.$white;
 
   &__icon{
     width: 40px;
@@ -25,25 +26,13 @@
 
   &__id{
     font-size: map-get(text.$font-sizes, s);
-    color: color.$third-text-color;
-  }
-
-  &__status{
-    padding: 4px 8px 4px 4px;
-    border: 1px solid #0000001F;
-    border-radius: 2px;
-    direction: rtl;
-    color: color.$secondary-text-color;
-    font-size: map-get(text.$font-sizes, s);
-    cursor: pointer;
-    text-align: left;
-    outline: none;
+    color: colors.$third-text-color;
   }
 
   &__name{
     margin-bottom: 4px;
     font-size: map-get(text.$font-sizes, s);
-    color: color.$main-text-color;
+    color: colors.$main-text-color;
     overflow: hidden;
     text-overflow: ellipsis;
     max-width: 212px;
@@ -53,7 +42,7 @@
   &__location{
     margin-bottom: 4px;
     font-size: map-get(text.$font-sizes, s);
-    color: color.$third-text-color;
+    color: colors.$third-text-color;
     @include layout.flex-center;
     justify-self: left;
   }
@@ -64,7 +53,7 @@
 
   &__additional{
     font-size: map-get(text.$font-sizes, s);
-    color: color.$third-text-color;
+    color: colors.$third-text-color;
     @include layout.flex-between;
     width: 80px;
     margin-left: auto;

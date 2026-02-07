@@ -1,1 +1,40 @@
-<p>task-info works!</p>
+<main class="task-info">
+  <div class="container task-info__container">
+    <div class="task-info__header">
+      <div class="task-info__title">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="20" r="20" fill="#F0F0F0"/>
+          <rect x="11.7857" y="8.21432" width="16.4286" height="22.1429" rx="1.78571" fill="white" stroke="#C2C2C2" stroke-width="0.714286"/>
+          <rect x="14.2857" y="30" width="2.14286" height="2.14286" rx="0.714286" fill="#C2C2C2"/>
+          <rect x="23.5714" y="30" width="2.14286" height="2.14286" rx="0.714286" fill="#C2C2C2"/>
+          <path d="M19.5815 20.6138C19.4885 20.8705 19.4382 21.2202 19.4308 21.6629H20.4632C20.4632 21.0974 20.599 20.664 20.8705 20.3627L21.4788 19.76C22.0815 19.1276 22.3828 18.4858 22.3828 17.8348C22.3828 17.1763 22.1856 16.6592 21.7913 16.2834C21.4007 15.904 20.8538 15.7142 20.1507 15.7142C19.4736 15.7142 18.923 15.9002 18.4989 16.2723C18.0785 16.6406 17.8646 17.1261 17.8571 17.7287H18.8895C18.8895 17.3902 19.0048 17.1205 19.2355 16.9196C19.4662 16.7187 19.7712 16.6183 20.1507 16.6183C20.5413 16.6183 20.8389 16.7299 21.0435 16.9531C21.2481 17.1726 21.3505 17.4776 21.3505 17.8683C21.3505 18.2738 21.1942 18.6532 20.8817 19.0066L20.1507 19.76C19.8642 20.0725 19.6745 20.3571 19.5815 20.6138Z" fill="#C2C2C2"/>
+          <path d="M20.4643 23.0401C20.4643 23.3261 20.2324 23.558 19.9464 23.558C19.6604 23.558 19.4286 23.3261 19.4286 23.0401C19.4286 22.7541 19.6604 22.5223 19.9464 22.5223C20.2324 22.5223 20.4643 22.7541 20.4643 23.0401Z" fill="#C4C4C4"/>
+        </svg>
+        <div class="task-info__title-info">
+          <h1 class="task-info__name">Система щелочи, Watertown, NaOH</h1>
+          <h2 class="task-info__id">10025426</h2>
+        </div>
+      </div>
+      <div class="task-info__action">
+        <app-select class="task-info__select"></app-select>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path stroke="#EE3F44" fill-rule="evenodd" clip-rule="evenodd" d="M12 21.35L10.55 20.03C5.4 15.36 2 12.28 2 8.5C2 5.42 4.42 3 7.5 3C9.24 3 10.91 3.81 12 5.09C13.09 3.81 14.76 3 16.5 3C19.58 3 22 5.42 22 8.5C22 12.28 18.6 15.36 13.45 20.04L12 21.35Z" fill="none"/>
+        </svg>
+      </div>
+    </div>
+    <nav class="task-info__navigation">
+      <button
+        type="button"
+        class="button task-info__button"
+        [class.task-info__button_active]="activeTab === tabs.analytics"
+        (click)="swapTabs(tabs.analytics)">Аналитика</button>
+      <button
+        type="button"
+        class="button task-info__button"
+        [class.task-info__button_active]="activeTab === tabs.describe"
+        (click)="swapTabs(tabs.describe)">Описание</button>
+    </nav>
+    <hr class="task-info__separator"/>
+  </div>
+  <router-outlet></router-outlet>
+</main>
