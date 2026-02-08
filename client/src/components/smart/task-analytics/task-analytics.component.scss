@@ -1,0 +1,71 @@
+@use '../../../common-styles/colors' as colors;
+@use '../../../common-styles/layout-mixins' as layouts;
+@use '../../../common-styles/typography' as typography;
+
+.task-analytics{
+  background-color: colors.$white;
+
+  &__header{
+    @include layouts.flex-between;
+    padding: 0 16px;
+  }
+
+  &__date-picker{
+    margin-bottom: 16px;
+  }
+
+  &__periods-navigation{
+    padding: 0 16px;
+  }
+
+  &__period{
+    margin-right: 8px;
+  }
+
+  &__history{
+    margin-top: 20px;
+  }
+
+  &__table{
+    width: 100%;
+  }
+
+  &__table-row{
+    border-bottom: 1px solid #21212114;
+    font-size: map-get(typography.$font-sizes, m);
+    line-height: map-get(typography.$line-height, l);
+  }
+
+  &__table-cells{
+    display: grid;
+    grid-template-columns: 160px 130px 1fr 170px;
+  }
+
+  &__table-cell{
+    padding: 18px 27px 18px 12px;
+
+    &--head{
+      @include layouts.flex-center;
+      justify-self: left;
+      color: colors.$secondary-text-color;
+    }
+
+    &--link{
+     color: colors.$third-color;
+    }
+
+  }
+
+  &__table-title--mr{
+    margin-right: 11px;
+  }
+
+  &__table-title--ml{
+    margin-left: 11px;
+  }
+
+  &__pagination{
+    justify-self: right;
+  }
+
+}

@@ -1,0 +1,57 @@
+<div class="date-picker">
+  <div class="date-picker__fields">
+    <div class="date-picker__field" (click)="openCalendarFor('start')">
+      <input
+        class="date-picker__input"
+        [class.date-picker__input--active]="activeField === 'start'"
+        [value]="formatDate(startDate)"
+        placeholder="Дата начала"
+        readonly
+      />
+    </div>
+    <svg class="date-picker__svg" width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M5.33333 0L4.39333 0.94L8.11333 4.66667H0V6H8.11333L4.39333 9.72667L5.33333 10.6667L10.6667 5.33333L5.33333 0Z" fill="black" fill-opacity="0.6"/>
+    </svg>
+    <div class="date-picker__field" (click)="openCalendarFor('end')">
+      <input
+        class="date-picker__input"
+        [class.date-picker__input--active]="activeField === 'end'"
+        [value]="formatDate(endDate)"
+        placeholder="Дата окончания"
+        readonly
+      />
+    </div>
+  </div>
+  <div class="date-picker__calendar" *ngIf="showCalendar">
+    <div class="date-picker__calendar-header">
+      <button type="button" class="button date-picker__nav-button" (click)="changeMonth(-1)"><</button>
+      <div class="date-picker__month-year">
+        {{ currentMonthName }} {{ currentDate.getFullYear() }}
+      </div>
+      <button type="button" class="button date-picker__nav-button" (click)="changeMonth(1)">></button>
+    </div>
+    <div class="date-picker__weekdays">
+      <div class="date-picker__weekday" *ngFor="let day of dayNames">
+        {{ day }}
+      </div>
+    </div>
+    <div class="date-picker__days">
+      <div
+        class="date-picker__day"
+        *ngFor="let day of calendarDays"
+        [class.date-picker__day--empty]="isEmptyDay(day)"
+        [class.date-picker__day--today]="day && isToday(day)"
+        [class.date-picker__day--selected]="day && isDateSelected(day)"
+        [class.date-picker__day--in-range]="day && isDateInRange(day)"
+        [class.date-picker__day--disabled]="day && isDateDisabled(day)"
+        (click)="day && selectDate(day)"
+      >
+        {{ day ? day.getDate() : '' }}
+      </div>
+    </div>
+    <div class="date-picker__actions">
+      <button type="button" class="button date-picker__btn" (click)="clearSelection()">Очистить</button>
+      <button type="button" class="button date-picker__btn" (click)="closeCalendar()">Закрыть</button>
+    </div>
+  </div>
+</div>

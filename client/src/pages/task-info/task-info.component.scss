@@ -43,7 +43,6 @@
   }
 
   &__navigation{
-    max-width: 240px;
     margin-top: 16px;
   }
 
@@ -52,6 +51,7 @@
     text-transform: uppercase;
     font-size: map-get(typography.$font-sizes, m);
     color: colors.$secondary-text-color;
+    background-color: transparent;
 
     &:first-child{
       padding-left: 0;

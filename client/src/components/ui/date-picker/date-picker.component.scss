@@ -1,0 +1,144 @@
+@use '../../../common-styles/typography' as typography;
+@use '../../../common-styles/colors' as colors;
+@use '../../../common-styles/layout-mixins' as layout;
+
+.date-picker {
+  position: relative;
+  max-width: 380px;
+
+  &__fields {
+    @include layout.flex-between;
+  }
+
+  &__input {
+    width: 100%;
+    padding: 10px 8px;
+    border: 1px solid #0000001F;
+    font-size: map-get(typography.$font-sizes, m);
+    cursor: pointer;
+    color: #3C3C3C;
+    background-image: url('data:image/svg+xml;utf8,<svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12 1.33333H11.3333V0H10V1.33333H3.33333V0H2V1.33333H1.33333C0.6 1.33333 0 1.93333 0 2.66667V13.3333C0 14.0667 0.6 14.6667 1.33333 14.6667H12C12.7333 14.6667 13.3333 14.0667 13.3333 13.3333V2.66667C13.3333 1.93333 12.7333 1.33333 12 1.33333ZM12 13.3333H1.33333V4.66667H12V13.3333Z" fill="black" fill-opacity="0.6"/> </svg> ');
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+
+    &:hover {
+      border-color: #bbb;
+    }
+
+    &--active {
+      border-color: #2196f3;
+    }
+  }
+
+  &__svg{
+    margin: 0 12px;
+  }
+
+  &__calendar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 310px;
+    padding: 10px;
+    background: colors.$white;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    margin-top: 8px;
+  }
+
+  &__calendar-header {
+    @include layout.flex-between;
+    margin-bottom: 20px;
+  }
+
+  &__nav-button {
+    @include layout.flex-center;
+    background: #f5f5f5;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: map-get(typography.$font-sizes, m);
+    color: colors.$main-text-color;
+    transition: background 0.2s;
+
+    &:hover {
+      background: #e0e0e0;
+    }
+  }
+
+  &__month-year {
+    font-size: map-get(typography.$font-sizes, l);
+    color: colors.$main-text-color;
+  }
+
+  &__weekdays {
+    @include layout.flex-between;
+    margin-bottom: 12px;
+  }
+
+  &__weekday {
+    font-size: map-get(typography.$font-sizes, s);
+    color: colors.$secondary-text-color;
+    text-transform: uppercase;
+  }
+
+  &__days {
+    @include layout.grid-gap4-7c1f;
+  }
+
+  &__day {
+    @include layout.flex-center;
+    padding: 10px;
+    font-size: map-get(typography.$font-sizes, m);
+    color: colors.$secondary-text-color;
+    cursor: pointer;
+    transition: all 0.2s;
+
+    &:hover:not(.date-picker__day--empty):not(.date-picker__day--disabled) {
+      background: #e0e0e0;
+    }
+
+    &--today {
+      color: colors.$third-color;
+      position: relative;
+    }
+
+    &--selected {
+      background: colors.$third-color;
+      color: colors.$white;
+    }
+
+    &--in-range {
+      background: #e3f2fd;
+      color: #333;
+
+    }
+
+    &--disabled {
+      color: colors.$third-text-color;
+      cursor: not-allowed;
+    }
+
+    &--empty {
+      cursor: default;
+    }
+  }
+
+  &__actions{
+    @include layout.flex-between;
+    margin-top: 10px;
+  }
+
+  &__btn {
+    padding: 8px 10px;
+    background: #f5f5f5;
+    border-radius: 6px;
+    font-size: map-get(typography.$font-sizes, m);
+    color: colors.$secondary-text-color;
+    transition: all 0.2s;
+
+    &:hover {
+      background: #e0e0e0;
+    }
+  }
+}

@@ -1,0 +1,53 @@
+@use '../../../common-styles/colors' as colors;
+@use '../../../common-styles/layout-mixins' as lauout;
+@use '../../../common-styles/typography' as typography;
+
+.pagination{
+  @include lauout.flex-center;
+  padding: 8px 16px;
+  font-size: map-get(typography.$font-sizes, m);
+  line-height: map-get(typography.$line-height, l);
+
+  &__pages-count{
+    margin-right: 32px;
+    color: colors.$third-text-color;
+  }
+
+  &__select-pages-count{
+    margin-right: 32px;
+  }
+
+  &__select{
+    padding: 10px 16px;
+    outline: none;
+    border: 1px solid #0000001F;
+    border-radius: 4px;
+    color: colors.$main-text-color;
+  }
+
+  &__page-count{
+
+  }
+
+  &__current-page{
+    margin-right: 32px;
+    color: colors.$third-text-color;
+  }
+
+  &__btn{
+    margin-right: 32px;
+    width: 56px;
+    height: 56px;
+    background: transparent;
+
+    &:last-child{
+      margin-right: 0;
+    }
+
+    &--disabled{
+      fill-opacity: 0.38;
+    }
+
+  }
+
+}
