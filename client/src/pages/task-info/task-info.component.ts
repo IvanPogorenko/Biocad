@@ -1,8 +1,9 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {SelectComponent} from '../../components/ui/select/select.component';
 import {TaskDescribeComponent} from '../../components/smart/task-describe/task-describe.component';
-import {RouterLink, RouterOutlet} from '@angular/router';
+import {ActivatedRoute, Route, Router, RouterLink, RouterOutlet} from '@angular/router';
 import {RoutingService} from '../../app/routing.service';
+import {TASK_SUB_PATHS} from '../../app/app.paths';
 
 @Component({
   selector: 'app-task-info',
@@ -19,13 +20,14 @@ import {RoutingService} from '../../app/routing.service';
 export class TaskInfoComponent {
 
   constructor(
-    private _routingService: RoutingService
+    private _routingService: RoutingService,
+    private _router: Router
   ) {
   }
 
   public tabs = {
-    analytics: 'analytics',
-    describe: 'describe'
+    analytics: TASK_SUB_PATHS.Analytics,
+    describe: TASK_SUB_PATHS.Describe
   }
   public activeTab = this.tabs.describe
 

@@ -5,7 +5,7 @@
 
   &__container{
     margin-top: 8px;
-    @include layout.grid;
+    @include layout.grid-gap24-rc-f292px-to1fr;
     width: 100%;
   }
 

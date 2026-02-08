@@ -1,0 +1,60 @@
+@use '../../../common-styles/layout-mixins' as layout;
+@use '../../../common-styles/colors' as colors;
+@use '../../../common-styles/typography' as typography;
+
+.download-btn{
+
+  &__main{
+    @include layout.flex-center;
+    position: relative;
+  }
+
+  &__download{
+    padding: 10px 10px 10px 16px;
+    color: colors.$primary-color;
+    font-size: map-get(typography.$font-sizes, m);
+    line-height: map-get(typography.$line-height, l);
+    background: transparent;
+    border-bottom: 1px solid #0000001F;
+    border-left: 1px solid #0000001F;
+    border-top: 1px solid #0000001F;
+    border-right: 1px solid colors.$secondary-color;;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-bottomleft: 4px;
+
+    &:hover{
+      background: colors.$primary-color;
+      color: colors.$main-text-color;
+    }
+
+  }
+
+  &__dropdown-toggle{
+    padding: 9px 8px 8px 5px;
+    background: transparent;
+    border-bottom: 1px solid #0000001F;
+    border-right: 1px solid #0000001F;
+    border-top: 1px solid #0000001F;
+    -moz-border-radius-topright: 4px;
+    -moz-border-radius-bottomright: 4px;
+  }
+
+  &__dropdown{
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+
+  &__menu-item{
+    padding: 10px 10px 10px 16px;
+    background: transparent;
+    border: 1px solid #0000001F;
+    font-size: map-get(typography.$font-sizes, m);
+    color: colors.$main-text-color;
+
+    &:hover{
+      background: colors.$primary-color;
+    }
+  }
+
+}

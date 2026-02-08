@@ -9,6 +9,7 @@
   width: 296px;
   @include layout.flex-between;
   background-color: colors.$white;
+  cursor: pointer;
 
   &__icon{
     width: 40px;

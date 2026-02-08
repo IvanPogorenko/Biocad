@@ -1,0 +1,15 @@
+@use '../../../common-styles/typography' as typography;
+@use '../../../common-styles/colors' as colors;
+
+.filter-button{
+  padding: 6px 12px;
+  font-size: map-get(typography.$font-sizes, m);
+  color: colors.$main-text-color;
+  background-color: #21212114;
+  border-radius: 16px;
+
+  &_active{
+    background-color: colors.$secondary-color;
+  }
+
+}
