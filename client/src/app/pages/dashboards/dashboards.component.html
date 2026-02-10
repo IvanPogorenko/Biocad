@@ -1,0 +1,7 @@
+<main class="dashboards">
+  <div class="container dashboards__container">
+    <ng-container *ngFor="let task of (tasks$ | async)">
+      <app-task-card [task]="task"></app-task-card>
+    </ng-container>
+  </div>
+</main>

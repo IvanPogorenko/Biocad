@@ -1,6 +1,6 @@
-@use 'common-styles/reset';
-@use 'common-styles/typography';
-@use 'common-styles/colors' as colors;
+@use 'app/common-styles/reset';
+@use 'app/common-styles/typography';
+@use 'app/common-styles/colors' as colors;
 
 body {
   background-color: colors.$page-background;
