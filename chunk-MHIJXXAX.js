@@ -1,1 +1,0 @@
-import{a as e,b as a,d as s,e as r}from"./chunk-YJ4EFK5Q.js";var o=r("task-extends"),c=s(o,t=>t.task),d=s(o,t=>t.loading),k=s(o,t=>t.error);var p=e("[Task] Load Task-Extends"),l=e("[Task] Load Task-Extends Success",a()),E=e("[Task] Load Task-Extends Failure",a());export{c as a,d as b,k as c,p as d,l as e,E as f};
