@@ -1,0 +1,881 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "kharinskaia"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "name": "Рециркуляционная вентиляция, Trox, xcube, Приточно-рециркуляционная установка  2С-ПР10.1",
+      "number": 10025426,
+      "status": "free",
+      "location": "101",
+      "warnings": 0,
+      "alerts": 0,
+      "icon": "https://4.downloader.disk.yandex.ru/preview/1d290531f87924cfccee72d32940975bce827521c655ec80fd26c7ffff9ee9a2/inf/qra2H96H1rnVized_bgv8pYPX8WxdJffNIGIXLT4k5TkdPQAUVCo6BsmcZf8VL43cJNAHxaXB3gKu0Vk20sjyQ%3D%3D?uid=1405807076&filename=icon1.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=1405807076&tknv=v3&size=2538x1237"
+    },
+    {
+      "id": 2,
+      "name": "Рециркуляционная вентиляция, Trox, xcube, Приточно-рециркуляционная установка  2С-ПР10.1",
+      "number": 10025426,
+      "status": "free",
+      "location": "101",
+      "warnings": 0,
+      "alerts": 0,
+      "icon": "https://4.downloader.disk.yandex.ru/preview/1d290531f87924cfccee72d32940975bce827521c655ec80fd26c7ffff9ee9a2/inf/qra2H96H1rnVized_bgv8pYPX8WxdJffNIGIXLT4k5TkdPQAUVCo6BsmcZf8VL43cJNAHxaXB3gKu0Vk20sjyQ%3D%3D?uid=1405807076&filename=icon1.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=1405807076&tknv=v3&size=2538x1237"
+    },
+    {
+      "id": 3,
+      "name": "Рециркуляционная вентиляция, Trox, xcube, Приточно-рециркуляционная установка  2С-ПР10.1",
+      "number": 10025426,
+      "status": "free",
+      "location": "101",
+      "warnings": 0,
+      "alerts": 0,
+      "icon": "https://4.downloader.disk.yandex.ru/preview/1d290531f87924cfccee72d32940975bce827521c655ec80fd26c7ffff9ee9a2/inf/qra2H96H1rnVized_bgv8pYPX8WxdJffNIGIXLT4k5TkdPQAUVCo6BsmcZf8VL43cJNAHxaXB3gKu0Vk20sjyQ%3D%3D?uid=1405807076&filename=icon1.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=1405807076&tknv=v3&size=2538x1237"
+    },
+    {
+      "id": 4,
+      "name": "Осмометр Киви Осмометрия ОСКР-1М",
+      "number": 10025426,
+      "status": "booked",
+      "location": "2.5.03/2",
+      "warnings": 0,
+      "alerts": 0,
+      "icon": "https://3.downloader.disk.yandex.ru/preview/6a6b3a3af968b3f0da9e34f746044d31743eb886a1d126deb098329612e1c2d0/inf/JTPEQ-3QPKKnMjf3kt3mA1N1BJ7x6_DCUTKobysrVNmBBxuiHkUl1_J_37Dq00BYEaMkl4FNdDS7pMXnwPowyw%3D%3D?uid=1405807076&filename=icon2.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=1405807076&tknv=v3&size=2538x1237"
+    },
+    {
+      "id": 5,
+      "name": "Осмометр Киви Осмометрия ОСКР-1М",
+      "number": 10025426,
+      "status": "booked",
+      "location": "2.5.03/2",
+      "warnings": 0,
+      "alerts": 0,
+      "icon": "https://3.downloader.disk.yandex.ru/preview/6a6b3a3af968b3f0da9e34f746044d31743eb886a1d126deb098329612e1c2d0/inf/JTPEQ-3QPKKnMjf3kt3mA1N1BJ7x6_DCUTKobysrVNmBBxuiHkUl1_J_37Dq00BYEaMkl4FNdDS7pMXnwPowyw%3D%3D?uid=1405807076&filename=icon2.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=1405807076&tknv=v3&size=2538x1237"
+    },
+    {
+      "id": 6,
+      "name": "Осмометр Киви Осмометрия ОСКР-1М",
+      "number": 10025426,
+      "status": "booked",
+      "location": "2.5.03/2",
+      "warnings": 0,
+      "alerts": 0,
+      "icon": "https://3.downloader.disk.yandex.ru/preview/6a6b3a3af968b3f0da9e34f746044d31743eb886a1d126deb098329612e1c2d0/inf/JTPEQ-3QPKKnMjf3kt3mA1N1BJ7x6_DCUTKobysrVNmBBxuiHkUl1_J_37Dq00BYEaMkl4FNdDS7pMXnwPowyw%3D%3D?uid=1405807076&filename=icon2.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=1405807076&tknv=v3&size=2538x1237"
+    },
+    {
+      "id": 7,
+      "name": "Бокс биологической безопасности",
+      "number": "00-024004",
+      "status": "booked",
+      "location": "507",
+      "warnings": 0,
+      "alerts": 0,
+      "icon": "https://2.downloader.disk.yandex.ru/preview/fed210a65de3753db9d920103a56d45735476a9077f432bc22e5df72824a3abd/inf/VrJxqFOQGGLxaRV35vwOcorSswMfOQXfWx_vkUO_pwM7u-XcuSxBu_q-yReSPHTFT2olkM-NioE2fP4xmdxdmQ%3D%3D?uid=1405807076&filename=icon3.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=1405807076&tknv=v3&size=2538x1237"
+    },
+    {
+      "id": 8,
+      "name": "Система щелочи, Watertown, NaOH",
+      "number": "10025426",
+      "status": "free",
+      "location": "2.5.03/2",
+      "warnings": 0,
+      "alerts": 0,
+      "icon": "https://1.downloader.disk.yandex.ru/preview/07c13cb6accbf913e447ac874a085d3f73eda5a744863da2dc0b333a51120118/inf/64mUmqIHvAGXS31RA-zL4Rldh75iqkxQZcs7GLY6fG0-iMW28Fm7aJgTqDFvKaKH1jpG7ZDyvmThObH40KX61A%3D%3D?uid=1405807076&filename=icon4.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=1405807076&tknv=v3&size=2538x1237"
+    }
+  ],
+  "task_history": [
+    {
+      "task_id": 1,
+      "experiments": [
+        {
+          "date": "15.10.25",
+          "time": "10:55",
+          "status": "Калибровка",
+          "info": "Начало процедуры. Серия: CAL-2025-10",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "15.10.25",
+          "time": "12:15",
+          "status": "Проверка",
+          "info": "Образец/серия: 113-22. pH: 12.8",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "16.10.25",
+          "time": "11:20",
+          "status": "Обработка",
+          "info": "Результат: в норме. Концентрация: 12%",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "17.10.25",
+          "time": "11:05",
+          "status": "Тестирование",
+          "info": "Серия: TEST-45. Температура: 22°C",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "18.10.25",
+          "time": "14:30",
+          "status": "Обслуживание",
+          "info": "Замена фильтра. Номер фильтра: FF-334",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "20.10.25",
+          "time": "13:10",
+          "status": "Проверка",
+          "info": "Образец/серия: 115-24. Визуальный осмотр",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "21.10.25",
+          "time": "12:25",
+          "status": "Калибровка",
+          "info": "Калибровка по точке 10.0 pH",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "22.10.25",
+          "time": "15:45",
+          "status": "Обработка",
+          "info": "Результат: успешно. Объем: 50л",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "23.10.25",
+          "time": "11:50",
+          "status": "Контроль",
+          "info": "Ежедневный контроль параметров. Давление: 2.3 бар",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "24.10.25",
+          "time": "14:15",
+          "status": "Документирование",
+          "info": "Внесение в журнал. Отчет №45",
+          "user_name": "kharinskaia"
+        }
+      ]
+    },
+    {
+      "task_id": 2,
+      "experiments": [
+        {
+          "date": "05.10.25",
+          "time": "11:30",
+          "status": "Запуск",
+          "info": "Пуск после ТО. Расход: 1200 м³/ч",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "06.10.25",
+          "time": "12:20",
+          "status": "Мониторинг",
+          "info": "Контроль температуры: 21°C. Влажность: 45%",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "07.10.25",
+          "time": "11:40",
+          "status": "Проверка",
+          "info": "Фильтры: состояние нормальное",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "08.10.25",
+          "time": "16:10",
+          "status": "Настройка",
+          "info": "Корректировка скорости вентилятора. Уровень: средний",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "10.10.25",
+          "time": "14:55",
+          "status": "Диагностика",
+          "info": "Проверка датчиков CO2. Значение: 450 ppm",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "12.10.25",
+          "time": "11:25",
+          "status": "Обслуживание",
+          "info": "Очистка воздуховодов. Участок: A-101",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "13.10.25",
+          "time": "13:40",
+          "status": "Калибровка",
+          "info": "Калибровка датчика давления",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "15.10.25",
+          "time": "12:15",
+          "status": "Контроль",
+          "info": "Еженедельный контроль. Шум: 45 дБ",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "17.10.25",
+          "time": "15:30",
+          "status": "Проверка",
+          "info": "Образец воздуха: проба №78. Результаты ожидаются",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "18.10.25",
+          "time": "11:05",
+          "status": "Анализ",
+          "info": "Анализ пробы №78: чистота соответствует",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "20.10.25",
+          "time": "13:20",
+          "status": "Документирование",
+          "info": "Заполнение журнала эксплуатации",
+          "user_name": "kharinskaia"
+        }
+      ]
+    },
+    {
+      "task_id": 3,
+      "experiments": [
+        {
+          "date": "08.10.25",
+          "time": "11:45",
+          "status": "Инспекция",
+          "info": "Внешний осмотр. Состояние корпуса: хорошее",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "09.10.25",
+          "time": "14:10",
+          "status": "Тестирование",
+          "info": "Тест рециркуляции. Цикл №12",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "10.10.25",
+          "time": "12:30",
+          "status": "Калибровка",
+          "info": "Калибровка расходомера. Серия: FM-CAL-09",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "11.10.25",
+          "time": "16:45",
+          "status": "Проверка",
+          "info": "Проверка фильтров тонкой очистки",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "13.10.25",
+          "time": "11:20",
+          "status": "Обслуживание",
+          "info": "Смазка подшипников вентилятора",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "14.10.25",
+          "time": "13:55",
+          "status": "Мониторинг",
+          "info": "Мониторинг режима. Режим: автоматический",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "15.10.25",
+          "time": "15:10",
+          "status": "Диагностика",
+          "info": "Проверка системы управления. Ошибок нет",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "17.10.25",
+          "time": "11:30",
+          "status": "Настройка",
+          "info": "Настройка временных циклов",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "18.10.25",
+          "time": "14:40",
+          "status": "Контроль",
+          "info": "Контроль эффективности. Эффективность: 94%",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "19.10.25",
+          "time": "12:15",
+          "status": "Замеры",
+          "info": "Замер скорости воздуха: 2.5 м/с",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "21.10.25",
+          "time": "16:20",
+          "status": "Документирование",
+          "info": "Внесение данных в систему. Отчет №33",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "22.10.25",
+          "time": "11:50",
+          "status": "Проверка",
+          "info": "Итоговая проверка перед сдачей",
+          "user_name": "kharinskaia"
+        }
+      ]
+    },
+    {
+      "task_id": 4,
+      "experiments": [
+        {
+          "date": "12.10.25",
+          "time": "11:20",
+          "status": "Подготовка",
+          "info": "Подготовка к измерениям. Стандарт: NaCl 0.9%",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "12.10.25",
+          "time": "12:35",
+          "status": "Калибровка",
+          "info": "Калибровка по 3 точкам",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "12.10.25",
+          "time": "14:50",
+          "status": "Измерение",
+          "info": "Образец: сыворотка пациента. ID: P-4456",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "13.10.25",
+          "time": "11:15",
+          "status": "Обработка",
+          "info": "Результат: 285 мОсм/кг. Норма",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "13.10.25",
+          "time": "13:40",
+          "status": "Измерение",
+          "info": "Образец: раствор для инфузий. Серия: INF-889",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "14.10.25",
+          "time": "12:25",
+          "status": "Контроль",
+          "info": "Контрольный замер стандарта. Отклонение: 0.5%",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "15.10.25",
+          "time": "15:30",
+          "status": "Очистка",
+          "info": "Промывка измерительной ячейки",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "16.10.25",
+          "time": "11:10",
+          "status": "Калибровка",
+          "info": "Ежедневная калибровка",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "17.10.25",
+          "time": "14:05",
+          "status": "Измерение",
+          "info": "Образец: моча. ID: P-4478. Значение: 650 мОсм/кг",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "18.10.25",
+          "time": "11:45",
+          "status": "Обслуживание",
+          "info": "Замена пробоподающего шприца",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "19.10.25",
+          "time": "13:20",
+          "status": "Верификация",
+          "info": "Верификация методики. Протокол №12",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "20.10.25",
+          "time": "16:15",
+          "status": "Документирование",
+          "info": "Запись в журнал измерений",
+          "user_name": "kharinskaia"
+        }
+      ]
+    },
+    {
+      "task_id": 5,
+      "experiments": [
+        {
+          "date": "19.10.25",
+          "time": "11:40",
+          "status": "Включение",
+          "info": "Прогрев прибора. Время: 30 мин",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "19.10.25",
+          "time": "12:55",
+          "status": "Калибровка",
+          "info": "Калибровка по стандарту 300 мОсм/кг",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "19.10.25",
+          "time": "14:30",
+          "status": "Измерение",
+          "info": "Образец: физиологический раствор. Серия: FS-556",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "20.10.25",
+          "time": "11:20",
+          "status": "Контроль",
+          "info": "Контроль качества. Образец QC-1: 290 мОсм/кг",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "20.10.25",
+          "time": "15:10",
+          "status": "Измерение",
+          "info": "Образец: диализат. ID: D-334",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "21.10.25",
+          "time": "12:45",
+          "status": "Обработка",
+          "info": "Обработка данных. Статистика: 15 измерений",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "22.10.25",
+          "time": "14:25",
+          "status": "Калибровка",
+          "info": "Повторная калибровка после чистки",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "23.10.25",
+          "time": "11:00",
+          "status": "Измерение",
+          "info": "Образцы партии лекарств. Партия: L-8890",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "24.10.25",
+          "time": "13:50",
+          "status": "Обслуживание",
+          "info": "Чистка датчика. Раствор: этанол 70%",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "25.10.25",
+          "time": "11:35",
+          "status": "Верификация",
+          "info": "Сравнение с эталонным прибором",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "25.10.25",
+          "time": "16:40",
+          "status": "Документирование",
+          "info": "Оформление отчета по партии L-8890",
+          "user_name": "kharinskaia"
+        }
+      ]
+    },
+    {
+      "task_id": 6,
+      "experiments": [
+        {
+          "date": "22.10.25",
+          "time": "11:10",
+          "status": "Подготовка",
+          "info": "Подготовка рабочих стандартов",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "22.10.25",
+          "time": "12:25",
+          "status": "Калибровка",
+          "info": "Многоточечная калибровка (5 точек)",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "22.10.25",
+          "time": "14:45",
+          "status": "Измерение",
+          "info": "Образцы воды для инъекций. Серия: WFI-667",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "23.10.25",
+          "time": "11:30",
+          "status": "Анализ",
+          "info": "Анализ результатов. Среднее: 1.5 мОсм/кг",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "23.10.25",
+          "time": "14:15",
+          "status": "Измерение",
+          "info": "Образцы солевых растворов. Концентрация: 10%",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "24.10.25",
+          "time": "12:20",
+          "status": "Контроль",
+          "info": "Контроль стабильности. Дрейф: 0.3% за сутки",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "25.10.25",
+          "time": "15:05",
+          "status": "Очистка",
+          "info": "Глубокая очистка измерительной системы",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "26.10.25",
+          "time": "11:40",
+          "status": "Калибровка",
+          "info": "Калибровка после очистки",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "27.10.25",
+          "time": "13:25",
+          "status": "Исследование",
+          "info": "Измерение нестандартных образцов. Проект: N-05",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "28.10.25",
+          "time": "11:50",
+          "status": "Обслуживание",
+          "info": "Профилактический осмотр",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "29.10.25",
+          "time": "14:35",
+          "status": "Валидация",
+          "info": "Валидация методики измерений",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "30.10.25",
+          "time": "12:10",
+          "status": "Документирование",
+          "info": "Заполнение всех журналов. Архивация данных",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "31.10.25",
+          "time": "16:00",
+          "status": "Заключение",
+          "info": "Итоговый отчет за октябрь",
+          "user_name": "kharinskaia"
+        }
+      ]
+    },
+    {
+      "task_id": 7,
+      "experiments": [
+        {
+          "date": "01.10.25",
+          "time": "11:45",
+          "status": "Дезинфекция",
+          "info": "Полная дезинфекция камеры. Средство: Дезактин",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "02.10.25",
+          "time": "12:20",
+          "status": "Проверка",
+          "info": "Проверка воздушного потока. Скорость: 0.5 м/с",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "03.10.25",
+          "time": "14:30",
+          "status": "Работа",
+          "info": "Культивирование клеток. Линия: HEK 293",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "05.10.25",
+          "time": "11:15",
+          "status": "Контроль",
+          "info": "Контроль стерильности. Посев на чашки",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "07.10.25",
+          "time": "13:40",
+          "status": "Замена",
+          "info": "Замена HEPA-фильтра. Серийный номер: HEPA-507-01",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "08.10.25",
+          "time": "11:25",
+          "status": "Тестирование",
+          "info": "Тест на герметичность. Результат: положительный",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "10.10.25",
+          "time": "15:50",
+          "status": "Работа",
+          "info": "Работа с патогеном 2-й группы. Протокол: BSL-2-45",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "12.10.25",
+          "time": "12:35",
+          "status": "Дезинфекция",
+          "info": "Дезинфекция после работы с патогеном",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "14.10.25",
+          "time": "14:10",
+          "status": "Калибровка",
+          "info": "Калибровка датчиков давления",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "16.10.25",
+          "time": "11:55",
+          "status": "Обслуживание",
+          "info": "Обслуживание УФ-лампы. Накопление: 1200 часов",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "18.10.25",
+          "time": "13:20",
+          "status": "Документирование",
+          "info": "Внесение данных в журнал БББ",
+          "user_name": "kharinskaia"
+        }
+      ]
+    },
+    {
+      "task_id": 8,
+      "experiments": [
+        {
+          "date": "25.10.25",
+          "time": "11:00",
+          "status": "Запуск",
+          "info": "Запуск системы после простоя",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "25.10.25",
+          "time": "12:30",
+          "status": "Калибровка",
+          "info": "Калибровка датчика концентрации NaOH",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "25.10.25",
+          "time": "14:45",
+          "status": "Проверка",
+          "info": "Проверка трубопроводов на утечки",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "26.10.25",
+          "time": "11:20",
+          "status": "Наполнение",
+          "info": "Наполнение бака NaOH. Концентрация: 30%. Объем: 200л",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "26.10.25",
+          "time": "15:30",
+          "status": "Тестирование",
+          "info": "Тест системы дозирования. Расход: 5 л/ч",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "27.10.25",
+          "time": "13:15",
+          "status": "Мониторинг",
+          "info": "Мониторинг параметров. Температура: 25°C, давление: 3 бар",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "28.10.25",
+          "time": "12:05",
+          "status": "Очистка",
+          "info": "Промывка линии дозирования",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "29.10.25",
+          "time": "14:50",
+          "status": "Калибровка",
+          "info": "Повторная калибровка расходомера",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "30.10.25",
+          "time": "11:40",
+          "status": "Инспекция",
+          "info": "Визуальный осмотр оборудования",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "30.10.25",
+          "time": "16:25",
+          "status": "Анализ",
+          "info": "Анализ журналов работы за неделю",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "31.10.25",
+          "time": "12:10",
+          "status": "Обслуживание",
+          "info": "Профилактика насосов системы",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "01.11.25",
+          "time": "11:55",
+          "status": "Документирование",
+          "info": "Оформление месячного отчета",
+          "user_name": "kharinskaia"
+        },
+        {
+          "date": "02.11.25",
+          "time": "15:15",
+          "status": "Проверка",
+          "info": "Итоговая проверка перед сдачей смены",
+          "user_name": "kharinskaia"
+        }
+      ]
+    }
+  ],
+  "task_description": [
+    {
+      "id": 1,
+      "task_id": 1,
+      "description": {
+        "ERP": "28fedb4b-85a1-11e8-80e5-00155df02900",
+        "series": 37767108,
+        "passportId": 18941,
+        "EO": 10025426,
+        "class": "Система щелочи",
+        "producer": "Watertown"
+      }
+    },
+    {
+      "id": 2,
+      "task_id": 2,
+      "description": {
+        "ERP": "39acfd5c-96b2-22f9-90f6-11266ef03811",
+        "series": 37767109,
+        "passportId": 18942,
+        "EO": 10025426,
+        "class": "Рециркуляционная вентиляция",
+        "producer": "Trox"
+      }
+    },
+    {
+      "id": 3,
+      "task_id": 3,
+      "description": {
+        "ERP": "4ab1de6d-a7c3-33ga-01g7-22377gf14922",
+        "series": 37767110,
+        "passportId": 18943,
+        "EO": 10025426,
+        "class": "Рециркуляционная вентиляция",
+        "producer": "Trox"
+      }
+    },
+    {
+      "id": 4,
+      "task_id": 4,
+      "description": {
+        "ERP": "5bc2ef7e-b8d4-44hb-12h8-33488hg25a33",
+        "series": 48878211,
+        "passportId": 28944,
+        "EO": 10025426,
+        "class": "Осмометр",
+        "producer": "Киви"
+      }
+    },
+    {
+      "id": 5,
+      "task_id": 5,
+      "description": {
+        "ERP": "6cd3f08f-c9e5-55ic-23i9-44599ih36b44",
+        "series": 48878212,
+        "passportId": 28945,
+        "EO": 10025426,
+        "class": "Осмометр",
+        "producer": "Киви"
+      }
+    },
+    {
+      "id": 6,
+      "task_id": 6,
+      "description": {
+        "ERP": "7de41990-daf6-66jd-34j0-55610ji47c55",
+        "series": 48878213,
+        "passportId": 28946,
+        "EO": 10025426,
+        "class": "Осмометр",
+        "producer": "Киви"
+      }
+    },
+    {
+      "id": 7,
+      "task_id": 7,
+      "description": {
+        "ERP": "8ef52aa1-eb07-77ke-45k1-66721kj58d66",
+        "series": 59989314,
+        "passportId": 38947,
+        "EO": "00-024004",
+        "class": "Бокс биологической безопасности",
+        "producer": "Производитель БББ"
+      }
+    },
+    {
+      "id": 8,
+      "task_id": 8,
+      "description": {
+        "ERP": "9af36bb2-fc18-88lf-56l2-77832lk69e77",
+        "series": 61090415,
+        "passportId": 48948,
+        "EO": 10025426,
+        "class": "Система щелочи",
+        "producer": "Watertown"
+      }
+    }
+  ]
+}

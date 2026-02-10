@@ -1,0 +1,33 @@
+<section class="task-describe">
+  <ul class="task-describe__list">
+    <li class="task-describe__list-item">
+      <h3 class="task-describe__list-title">ID в ERP (GUID)</h3>
+      <p class="task-describe__list-text">{{task?.description?.ERP}}</p>
+    </li>
+    <li class="task-describe__list-item">
+      <h3 class="task-describe__list-title">Серийный номер</h3>
+      <p class="task-describe__list-text">{{task?.description?.series}}</p>
+    </li>
+    <li class="task-describe__list-item">
+      <h3 class="task-describe__list-title">ID в паспорте</h3>
+      <p class="task-describe__list-text">{{task?.description?.passportId}}</p>
+    </li>
+    <li class="task-describe__list-item">
+      <h3 class="task-describe__list-title">EO</h3>
+      <p class="task-describe__list-text">{{task?.description?.EO}}</p>
+    </li>
+    <hr class="task-describe__separator"/>
+    <li class="task-describe__list-item">
+      <h3 class="task-describe__list-title">Название</h3>
+      <p class="task-describe__list-text">{{task?.task?.name}}</p>
+    </li>
+    <li class="task-describe__list-item">
+      <h3 class="task-describe__list-title">Класс</h3>
+      <p class="task-describe__list-text">{{task?.description?.class}}</p>
+    </li>
+    <li class="task-describe__list-item">
+      <h3 class="task-describe__list-title">Производитель</h3>
+      <p class="task-describe__list-text">{{task?.description?.producer}}</p>
+    </li>
+  </ul>
+</section>
